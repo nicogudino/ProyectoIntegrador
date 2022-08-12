@@ -1,2 +1,7 @@
-div{background-color: #a1b5cb;
+div{background-color: #2469b3;
+}
+
+app-redes-sociales{
+    float: right;
+    margin-top: 25px;
 }
