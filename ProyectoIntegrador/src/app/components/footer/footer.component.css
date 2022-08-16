@@ -1,0 +1,11 @@
+.row{
+    background: #2469b3 ;
+    padding: 20px;
+}
+
+footer{
+    color: antiquewhite;
+    font-size: medium;
+    text-align: center;
+    box-shadow: 0px -2px #a5a9ad;
+}
