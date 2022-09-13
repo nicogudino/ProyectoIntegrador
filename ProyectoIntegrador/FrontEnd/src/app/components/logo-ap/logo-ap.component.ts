@@ -17,7 +17,7 @@ export class LogoAPComponent implements OnInit {
     if(this.tokenService.getToken()){
       this.isLogged=true;
     }else{
-      this.isLogged= true;
+      this.isLogged= false;
     }
   }
 
