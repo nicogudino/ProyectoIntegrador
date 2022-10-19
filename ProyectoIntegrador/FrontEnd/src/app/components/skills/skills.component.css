@@ -1,2 +1,12 @@
 div{background-color: #2469b3;
 }
+
+.row{
+    background-color: #2469b3;
+    padding: 20px;
+}
+.circulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
