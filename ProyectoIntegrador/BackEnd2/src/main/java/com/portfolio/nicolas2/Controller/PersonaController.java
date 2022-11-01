@@ -20,16 +20,18 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/personas")
-@CrossOrigin(origins = {"https://frontendproyecto-ff35c.web.app","http://localhost:4200"})
+@CrossOrigin(origins = "https://frontendproyecto-ff35c.web.app")
 public class PersonaController {
      @Autowired
     ImpPersonaService personaService;
-    
+   
+      
     @GetMapping("/lista")
     public ResponseEntity<List<Persona>> list(){
         List<Persona> list = personaService.list();
         return new ResponseEntity (list, HttpStatus.OK);
          }
+    
     
     @GetMapping("/detail/{id}")
     public ResponseEntity<Persona> getById(@PathVariable("id") int id){
@@ -64,6 +66,7 @@ public class PersonaController {
          return new ResponseEntity(new Mensaje("Educacion agregada"), HttpStatus.OK);
         
     } */ 
+    
     
     @PutMapping("/update/{id}")
     public ResponseEntity<?> update(@PathVariable("id") int id, @RequestBody dtoPersona dtopersona){
