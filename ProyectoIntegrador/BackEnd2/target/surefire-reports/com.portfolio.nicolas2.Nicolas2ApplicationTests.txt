@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.portfolio.nicolas2.Nicolas2ApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.892 s - in com.portfolio.nicolas2.Nicolas2ApplicationTests
